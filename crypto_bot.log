@@ -1,0 +1,174 @@
+2025-05-27 14:06:39,830 - CryptoBot.Portfolio - INFO - Connecting to Coinbase Advanced Trade API...
+2025-05-27 14:06:39,942 - CryptoBot.Portfolio - ERROR - Coinbase API error: 401 - Unauthorized
+
+2025-05-27 14:06:39,943 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from Coinbase API
+2025-05-27 14:06:39,943 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-27 14:06:39,944 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 13
+2025-05-27 14:06:39,948 - CryptoBot.Portfolio - INFO - Connecting to Coinbase Advanced Trade API...
+2025-05-27 14:06:40,054 - CryptoBot.Portfolio - ERROR - Coinbase API error: 401 - Unauthorized
+
+2025-05-27 14:06:40,054 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from Coinbase API
+2025-05-27 14:06:40,054 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-27 14:06:40,055 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-29 18:45:13,930 - CryptoBot.Portfolio - INFO - Connecting to Coinbase Advanced Trade API...
+2025-05-29 18:45:14,059 - CryptoBot.Portfolio - ERROR - Coinbase API error: 401 - Unauthorized
+
+2025-05-29 18:45:14,059 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from Coinbase API
+2025-05-29 18:45:14,059 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-29 18:45:14,061 - CryptoBot.Portfolio - INFO - Connecting to Coinbase Advanced Trade API...
+2025-05-29 18:45:14,314 - CryptoBot.Portfolio - ERROR - Coinbase API error: 401 - Unauthorized
+
+2025-05-29 18:45:14,315 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from Coinbase API
+2025-05-29 18:45:14,315 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-29 18:45:14,316 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-29 19:14:45,370 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API...
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - ERROR - Error generating JWT token: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - ERROR - Error fetching CDP accounts: JWT generation failed: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from CDP API
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-29 19:14:45,372 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-29 19:19:40,134 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API...
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - ERROR - Error generating JWT token: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - ERROR - Private key format issue. Key length: 88
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - ERROR - Base64 decode also failed: 'utf-8' codec can't decode byte 0xa5 in position 0: invalid start byte
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - ERROR - Error fetching CDP accounts: JWT generation failed: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from CDP API
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-29 19:19:40,137 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-29 19:24:26,845 - CryptoBot.Portfolio - INFO - Using API key: 52497cb4-1e9c-4618-9...
+2025-05-29 19:24:26,845 - CryptoBot.Portfolio - INFO - Private key length: 88 characters
+2025-05-29 19:24:26,845 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API...
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - ERROR - Error generating JWT token: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - ERROR - Private key format issue. Key length: 88
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - ERROR - Base64 decode also failed: 'utf-8' codec can't decode byte 0xa5 in position 0: invalid start byte
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - ERROR - Error fetching CDP accounts: JWT generation failed: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from CDP API
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-29 19:24:26,847 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - Using API key: 52497cb4-1e9c-4618-9...
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - Private key length: 88 characters
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API...
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - Private key has 3 lines
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - First line: -----BEGIN EC PRIVATE KEY-----
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - Last line: -----END EC PRIVATE KEY-----
+2025-05-30 18:25:24,490 - CryptoBot.Portfolio - INFO - Total key length: 148 characters
+2025-05-30 18:25:24,491 - CryptoBot.Portfolio - ERROR - Error generating JWT token: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-30 18:25:24,491 - CryptoBot.Portfolio - ERROR - Private key format issue. Key starts with: pakrQTsu2L5aO53ypVMpukpZHOQ+A5vyb5MNWO5WLiuTI0Haq/...
+2025-05-30 18:25:24,491 - CryptoBot.Portfolio - INFO - Trying alternative newline processing...
+2025-05-30 18:25:24,491 - CryptoBot.Portfolio - ERROR - Not enough lines in key after processing: 1
+2025-05-30 18:25:24,491 - CryptoBot.Portfolio - ERROR - Error fetching CDP accounts: JWT generation failed: Could not deserialize key data. The data may be in an incorrect format, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters). Details: ASN.1 parsing error: invalid length
+2025-05-30 18:25:24,491 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from CDP API
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-30 18:25:24,492 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-30 18:32:55,557 - CryptoBot.Portfolio - INFO - Using API key: 7705f804-38be-4467-b...
+2025-05-30 18:32:55,559 - CryptoBot.Portfolio - INFO - Private key length: 232 characters
+2025-05-30 18:32:55,559 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API...
+2025-05-30 18:32:55,559 - CryptoBot.Portfolio - INFO - Private key has 5 lines
+2025-05-30 18:32:55,559 - CryptoBot.Portfolio - INFO - First line: -----BEGIN EC PRIVATE KEY-----
+2025-05-30 18:32:55,559 - CryptoBot.Portfolio - INFO - Last line: -----END EC PRIVATE KEY-----
+2025-05-30 18:32:55,559 - CryptoBot.Portfolio - INFO - Total key length: 226 characters
+2025-05-30 18:32:55,611 - CryptoBot.Portfolio - INFO - JWT token generated successfully!
+2025-05-30 18:32:56,338 - CryptoBot.Portfolio - ERROR - CDP API error: 401 - Unauthorized
+
+2025-05-30 18:32:56,339 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from CDP API
+2025-05-30 18:32:56,339 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-30 18:32:56,339 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-30 18:32:56,339 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-30 18:32:56,339 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-30 18:32:56,339 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-30 18:32:56,340 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-30 18:32:56,340 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-30 18:32:56,340 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-30 18:32:56,340 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-30 18:32:56,340 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-30 18:51:35,015 - CryptoBot.Portfolio - INFO - Using API key: organizations/c23898...
+2025-05-30 18:51:35,016 - CryptoBot.Portfolio - INFO - Private key length: 232 characters
+2025-05-30 18:51:35,016 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API...
+2025-05-30 18:51:35,016 - CryptoBot.Portfolio - INFO - Private key has 5 lines
+2025-05-30 18:51:35,016 - CryptoBot.Portfolio - INFO - First line: -----BEGIN EC PRIVATE KEY-----
+2025-05-30 18:51:35,016 - CryptoBot.Portfolio - INFO - Last line: -----END EC PRIVATE KEY-----
+2025-05-30 18:51:35,016 - CryptoBot.Portfolio - INFO - Total key length: 226 characters
+2025-05-30 18:51:35,033 - CryptoBot.Portfolio - INFO - JWT token generated successfully!
+2025-05-30 18:51:35,572 - CryptoBot.Portfolio - ERROR - CDP API error: 401 - Unauthorized
+
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - ERROR - Failed to fetch accounts from CDP API
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO - Falling back to simulated portfolio data
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 6 assets
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 6 assets
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO - Portfolio total value: $56724.20
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO -   BTC: $26467.00 (46.7%)
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO -   ETH: $12391.70 (21.8%)
+2025-05-30 18:51:35,573 - CryptoBot.Portfolio - INFO -   SOL: $8325.50 (14.7%)
+2025-05-30 18:51:35,574 - CryptoBot.Portfolio - INFO -   USDC: $5000.00 (8.8%)
+2025-05-30 18:51:35,574 - CryptoBot.Portfolio - INFO -   XRP: $2340.00 (4.1%)
+2025-05-30 18:51:35,574 - CryptoBot.Portfolio - INFO -   DOGE: $2200.00 (3.9%)
+2025-05-30 18:59:29,975 - CryptoBot.Portfolio - INFO - Using API key: organizations/c2389842-d8bd-48e0-9f87-91f187adc308...
+2025-05-30 18:59:29,975 - CryptoBot.Portfolio - INFO - Private key length: 232 characters
+2025-05-30 18:59:29,975 - CryptoBot.Portfolio - INFO - Connecting to Coinbase CDP API with corrected authentication...
+2025-05-30 18:59:29,975 - CryptoBot.Portfolio - INFO - Generating JWT for: GET api.coinbase.com/api/v3/brokerage/accounts
+2025-05-30 18:59:29,975 - CryptoBot.Portfolio - INFO - API Key: organizations/c2389842-d8bd-48e0-9f87-91f187adc308...
+2025-05-30 18:59:29,975 - CryptoBot.Portfolio - INFO - Headers: kid=organizations/c23898..., nonce=ca38823503...
+2025-05-30 18:59:29,984 - CryptoBot.Portfolio - INFO - JWT token generated successfully with proper headers!
+2025-05-30 18:59:29,984 - CryptoBot.Portfolio - INFO - Making request to: https://api.coinbase.com/api/v3/brokerage/accounts
+2025-05-30 18:59:30,882 - CryptoBot.Portfolio - INFO - Response status: 200
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - Successfully fetched accounts from CDP API!
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - Successfully connected to Coinbase CDP API! Found 1 accounts
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - Generating JWT for: GET api.coinbase.com/api/v3/brokerage/accounts
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - API Key: organizations/c2389842-d8bd-48e0-9f87-91f187adc308...
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - Headers: kid=organizations/c23898..., nonce=a2f2eacd3d...
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - JWT token generated successfully with proper headers!
+2025-05-30 18:59:30,883 - CryptoBot.Portfolio - INFO - Making request to: https://api.coinbase.com/api/v3/brokerage/accounts
+2025-05-30 18:59:31,901 - CryptoBot.Portfolio - INFO - Response status: 200
+2025-05-30 18:59:31,901 - CryptoBot.Portfolio - INFO - Successfully fetched accounts from CDP API!
+2025-05-30 18:59:31,901 - CryptoBot.Portfolio - INFO - Successfully fetched balances for 1 assets
+2025-05-30 18:59:31,901 - CryptoBot.Portfolio - INFO - Successfully calculated USD values for 1 assets
+2025-05-30 18:59:31,901 - CryptoBot.Portfolio - INFO - Portfolio total value: $48.75
+2025-05-30 18:59:31,901 - CryptoBot.Portfolio - INFO -   USD: $48.75 (100.0%)

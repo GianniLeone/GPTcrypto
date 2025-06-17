@@ -1,0 +1,53 @@
+{
+  "export_timestamp": "2025-05-31T14:12:39.640236",
+  "stats": {
+    "total_trades": 1,
+    "executed_trades": 1,
+    "buy_trades": 1,
+    "sell_trades": 0,
+    "open_positions": 1,
+    "closed_positions": 0,
+    "trades_last_24h": 1,
+    "avg_confidence": 0.9,
+    "symbols_traded": 1,
+    "cooldown_period_minutes": 30
+  },
+  "trade_history": [
+    {
+      "symbol": "BTC",
+      "action": "buy",
+      "timestamp": "2025-05-31T13:49:59.560746",
+      "confidence": 0.9,
+      "rationale": "NEWS-DRIVEN: The focus on individual liberty at the Bitcoin conference aligns with the core principles of decentralization and freedom that underpin cryptocurrencies like Bitcoin. This sentiment shift towards freedom can attract more investors and traders to the market, potentially driving up demand for cryptocurrencies, especially Bitcoin. Given the current market conditions and the bullish sentiment, it is advisable to consider increasing exposure to BTC in the portfolio to capitalize on potential price appreciation.\n\nCONSISTENCY: No recent trades to compare against - full consistency.",
+      "amount_percentage": 100,
+      "usd_amount": 1.5327475846384,
+      "crypto_amount": null,
+      "executed": true,
+      "simulated": false,
+      "order_id": "e031bdfe-8fa7-4a76-87c8-499412885c29"
+    }
+  ],
+  "positions": {
+    "BTC": {
+      "symbol": "BTC",
+      "entry_action": "buy",
+      "entry_timestamp": "2025-05-31T13:49:59.560746",
+      "entry_confidence": 0.9,
+      "entry_rationale": "NEWS-DRIVEN: The focus on individual liberty at the Bitcoin conference aligns with the core principles of decentralization and freedom that underpin cryptocurrencies like Bitcoin. This sentiment shift towards freedom can attract more investors and traders to the market, potentially driving up demand for cryptocurrencies, especially Bitcoin. Given the current market conditions and the bullish sentiment, it is advisable to consider increasing exposure to BTC in the portfolio to capitalize on potential price appreciation.\n\nCONSISTENCY: No recent trades to compare against - full consistency.",
+      "amount_percentage": 100,
+      "usd_amount": 1.5327475846384,
+      "crypto_amount": null,
+      "is_open": true,
+      "exit_timestamp": null,
+      "exit_action": null,
+      "exit_rationale": null
+    }
+  },
+  "cooldown_status": {
+    "BTC": {
+      "in_cooldown": true,
+      "remaining_minutes": 7,
+      "last_trade": "2025-05-31T13:49:59.560746"
+    }
+  }
+}

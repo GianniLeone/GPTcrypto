@@ -1,0 +1,32 @@
+{
+  "export_timestamp": "2025-05-31T13:48:26.708598",
+  "stats": {
+    "total_trades": 1,
+    "executed_trades": 0,
+    "buy_trades": 0,
+    "sell_trades": 0,
+    "open_positions": 0,
+    "closed_positions": 0,
+    "trades_last_24h": 1,
+    "avg_confidence": 0,
+    "symbols_traded": 0,
+    "cooldown_period_minutes": 120
+  },
+  "trade_history": [
+    {
+      "symbol": "BTC",
+      "action": "hold",
+      "timestamp": "2025-05-31T13:32:45.816631",
+      "confidence": 0.7,
+      "rationale": "Based on the technical analysis, BTC is currently in an overbought state with the RSI at 88.8, signaling a potential sell opportunity. However, the MACD shows strong bullish momentum with the price above the MA20. Market sentiment is neutral with a slight bearish bias, and the Fear & Greed Index indicates a balanced sentiment. Considering the high risk level of your portfolio with a significant concentration in BTC, it is advisable to hold for now and wait for clearer signals before making any trading decisions.",
+      "amount_percentage": 0,
+      "usd_amount": null,
+      "crypto_amount": null,
+      "executed": false,
+      "simulated": false,
+      "order_id": null
+    }
+  ],
+  "positions": {},
+  "cooldown_status": {}
+}

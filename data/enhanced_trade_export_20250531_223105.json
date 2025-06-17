@@ -1,0 +1,61 @@
+{
+  "export_timestamp": "2025-05-31T22:31:05.884287",
+  "export_type": "enhanced_position_manager",
+  "version": "2.0",
+  "stats": {
+    "total_trades": 1,
+    "executed_trades": 0,
+    "buy_trades": 0,
+    "sell_trades": 0,
+    "open_positions": 0,
+    "closed_positions": 0,
+    "trades_last_24h": 1,
+    "avg_conviction_score": 0,
+    "avg_confidence": 0,
+    "symbols_traded": 0,
+    "cooldown_period_minutes": 30,
+    "min_cooldown_minutes": 30,
+    "max_cooldown_minutes": 90,
+    "active_cooldowns": 0,
+    "dynamic_cooldowns": 0,
+    "emergency_overrides": 0,
+    "news_driven_trades": 0,
+    "avg_position_pnl": null,
+    "conviction_snapshots": 0,
+    "consistency_cache_size": 0
+  },
+  "cooldown_settings": {
+    "base_minutes": 30,
+    "min_minutes": 30,
+    "max_minutes": 90
+  },
+  "trade_history": [
+    {
+      "symbol": null,
+      "action": "hold",
+      "timestamp": "2025-05-31T22:29:27.185083",
+      "confidence": 0.7,
+      "rationale": "While there are fluctuations in the market, there is no high-conviction opportunity meeting all criteria at the moment. Waiting for a clearer setup is prudent to maintain quality over quantity in trading.",
+      "amount_percentage": 0,
+      "conviction_score": 7.0,
+      "usd_amount": null,
+      "crypto_amount": null,
+      "executed": false,
+      "simulated": false,
+      "order_id": null,
+      "entry_price": null,
+      "exit_price": null,
+      "market_conditions": null,
+      "technical_summary": "neutral",
+      "sentiment_category": "neutral",
+      "fear_greed_value": null,
+      "news_driven": false,
+      "emergency_override": false
+    }
+  ],
+  "positions": {},
+  "conviction_snapshots": [],
+  "consistency_analysis": {},
+  "cooldown_status": {},
+  "position_summaries": {}
+}
