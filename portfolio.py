@@ -345,19 +345,24 @@ def create_simulated_exchange() -> object:
     return SimulatedExchange()
 
 def initialize_binance_client(api_key: str, api_secret: str) -> Optional[BinanceAPI]:
-    """Initialize Binance API client with trading capabilities"""
+    """Initialize Binance API client with trading capabilities - FIXED VERSION"""
     
     # Check if we should use simulated trading
     use_simulated = os.getenv('USE_SIMULATED_TRADING', 'false').lower() == 'true'
     if use_simulated:
-        logger.info("🎭 Using simulated trading (USE_SIMULATED_TRADING is true)")
+        logger.info("Using simulated trading (USE_SIMULATED_TRADING is true)")
+        return create_simulated_exchange()
+    
+    # Check if API keys are actually provided and not placeholders
+    if not api_key or not api_secret or api_key == 'placeholder' or api_secret == 'placeholder':
+        logger.warning("Binance API keys not provided or are placeholders. Using simulated trading.")
         return create_simulated_exchange()
     
     # Check if we should use testnet
     use_testnet = os.getenv('USE_BINANCE_TESTNET', 'false').lower() == 'true'
     
     try:
-        logger.info("🚀 Connecting to Binance API with trading capabilities...")
+        logger.info("Connecting to Binance API with trading capabilities...")
         
         # Initialize the Binance API client
         client = BinanceAPI(api_key, api_secret, testnet=use_testnet)
@@ -365,17 +370,17 @@ def initialize_binance_client(api_key: str, api_secret: str) -> Optional[Binance
         # Test the connection
         account_info = client.get_account_info()
         if account_info and 'balances' in account_info:
-            logger.info(f"✅ Successfully connected to Binance {'Testnet' if use_testnet else 'Live'}! "
+            logger.info(f"Successfully connected to Binance {'Testnet' if use_testnet else 'Live'}! "
                        f"Account status: {account_info.get('accountType', 'SPOT')}")
             return client
         else:
-            logger.error("❌ Failed to fetch account info from Binance API")
-            logger.info("🎭 Falling back to simulated trading")
+            logger.error("Failed to fetch account info from Binance API")
+            logger.info("Falling back to simulated trading")
             return create_simulated_exchange()
             
     except Exception as e:
-        logger.error(f"❌ Failed to initialize Binance trading client: {str(e)}")
-        logger.info("🎭 Falling back to simulated trading")
+        logger.error(f"Failed to initialize Binance trading client: {str(e)}")
+        logger.info("Falling back to simulated trading")
         return create_simulated_exchange()
 
 def analyze_action_type(action: str, analysis_result: Dict[str, Any]) -> Dict[str, str]:
